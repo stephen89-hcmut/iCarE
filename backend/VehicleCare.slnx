@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VehicleCare.Api/VehicleCare.Api.csproj" />
+    <Project Path="src/VehicleCare.Application/VehicleCare.Application.csproj" />
+    <Project Path="src/VehicleCare.Domain/VehicleCare.Domain.csproj" />
+    <Project Path="src/VehicleCare.Infrastructure/VehicleCare.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VehicleCare.Api.IntegrationTests/VehicleCare.Api.IntegrationTests.csproj" />
+    <Project Path="tests/VehicleCare.Application.Tests/VehicleCare.Application.Tests.csproj" />
+    <Project Path="tests/VehicleCare.Domain.Tests/VehicleCare.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

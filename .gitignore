@@ -1,0 +1,87 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and local tooling
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output and local artifacts
+**/bin/
+**/obj/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ASP.NET Core local configuration and secrets
+**/appsettings.*.json
+!**/appsettings.json
+**/Properties/launchSettings.json
+**/secrets.json
+**/.secrets/
+**/UserSecrets/
+
+# Certificates, private keys, signing files and local credentials
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.snk
+credentials.json
+credentials*.json
+secrets.json
+secret*.json
+*_credentials.*
+*_secret.*
+
+# Environment files. Keep only safe templates in the repository.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Frontend dependencies, builds and test output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/coverage/
+**/.vite/
+**/.vitest/
+**/*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local databases and data volumes
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+docker-data/
+postgres-data/
+
+# Logs and generated reports
+*.log
+logs/
+reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
